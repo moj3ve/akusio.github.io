@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style type="text/css">
+body {
+font-family:"Hiragino Kaku Gothic ProN", sans-serif;
+font-size:small;
+}
+</style>
+
+
+</head>
+<body bgcolor="white">
+
+アプリをウィンドウ化するtweakです。<br>
+まだ結構バグが残ってます。特に画面の回転関係。<br>
+iPadだとウィンドウからウィンドウへDrag&Dropできます<br>
+iPhoneXだとジェスチャが被って動かないかも<br>
+
+<img src="img1.jpg">
+
+<br>
+<hr width="100%" align="left">
+<br>
+動作確認済み端末<br>
+iPhone8 iOS11.1 Electra<br>
+iPad Pro iOS11.3.1 unc0ver<br>
+<br>
+*最新ベータ版のActivatorと<br>
+Backgrounder Actionが必要です*<br>
+<br>
+<hr width="100%" align="left">
+<br>
+----*使い方*-----<br>
+ウィンドウ化したいアプリを<br>
+Backgrounder ActionでForeground Modeにします<br>
+その後スイッチャーを出し、アプリの画面を<br>
+長押しするとウィンドウ化します<br>
+※Foreground Modeではないアプリはウィンドウ化しません<br>
+<br>
+<br>
+タイトルバー右側<br>
+赤ボタン：ウィンドウを消す<br>
+黄ボタン：最小化<br>
+緑ボタン：最大化<br>
+<br>
+タイトルバー左側<br>
+灰ボタン：ウィンドウのサイズ調整<br>
+　　　　　ダブルタップでアスペクト比調整<br>
+
+<br>
+<hr width="100%" align="left">
+<br>
+
+-----*既知の問題*-----<br>
+1.ウィンドウ化すると通常の表示に戻れない<br>
+　└アプリを再起動すれば直るのでとりあえずそれで<br>
+<br>
+2.回転すべきところではないシーンで画面が回転する<br>
+<br>
+3.ウィンドウ化したアプリが画面回転しない<br>
+<br>
+4.iPadでsplit viewとかslide overと組み合わせると操作不能になる<br>
+　└物理ボタンでリスプリングするか、<br>
+　　sshでkillall -9 SpringBoardで<br>
+<br>
+<font color="#fdfdfd"><span style="font-size:2px">5.僕のtwitterアカウントが消えている</span></font><br>
+
+</body>
+</html>
